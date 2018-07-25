@@ -5,6 +5,7 @@
  */
 package org.app.model;
 
+import javax.validation.constraints.Size;
 import javax.xml.bind.annotation.XmlRootElement;
 
 /**
@@ -13,7 +14,7 @@ import javax.xml.bind.annotation.XmlRootElement;
  */
 @XmlRootElement
 public class DataContent {
-
+    @Size(min = 5, max=100)
     private String version;
     private Person person;
 

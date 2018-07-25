@@ -25,17 +25,17 @@
         <dependency>
             <groupId>org.glassfish.jersey.bundles</groupId>
             <artifactId>jaxrs-ri</artifactId>
-            <version>2.25</version>
+            <version>2.27</version>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
             <artifactId>jersey-media-moxy</artifactId>
-            <version>2.25</version>
+            <version>2.27</version>
         </dependency>        
         <dependency>
             <groupId>org.glassfish.jersey.ext</groupId>
-            <artifactId>jersey-spring3</artifactId>
-            <version>2.25.1</version>
+            <artifactId>jersey-spring4</artifactId>
+            <version>2.27</version>
         </dependency>        
         <dependency>
             <groupId>commons-logging</groupId>
@@ -45,7 +45,7 @@
         <dependency>
             <groupId>org.glassfish.jersey.ext</groupId>
             <artifactId>jersey-bean-validation</artifactId>
-            <version>2.25.1</version>
+            <version>2.27</version>
         </dependency>
     </dependencies>
 

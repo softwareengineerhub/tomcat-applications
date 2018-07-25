@@ -5,12 +5,15 @@
  */
 package org.app.model;
 
+import javax.validation.constraints.Size;
+
 /**
  *
  * @author denys.prokopiuk
  */
 public class Person {
 
+    @Size(min = 5, max = 200)
     private String name;
     private int age;
 

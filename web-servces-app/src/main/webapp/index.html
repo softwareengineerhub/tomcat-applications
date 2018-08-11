@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+    <br>
+        File upload:<br>
+        <form enctype="multipart/form-data" method="post" action="FileUploaderServlet">
+            <input type="file" name="my-file">
+            <input type="submit">
+        </form>
+    <p>GET<BR>
+        <form action="ParamServlet" method="get">
+            <p>
+            Name: <br>
+            <input type="text" name="name"/>
+            </p>
+        <p>
+            Age: <br>
+            <input type="text" name="age"/>
+        </p>
+            <input type="submit"/>
+        </form>
+    </p>
+
+
+        <p>
+            POST<BR>
+            <form action="ParamServlet" method="post">
+        <p>
+            Name: <br>
+            <input type="text" name="name"/>
+        </p>
+        <p>
+            Age: <br>
+            <input type="text" name="age"/>
+        </p>
+        <input type="submit"/>
+        </form>
+        </p>
+
+    </body>
+</html>

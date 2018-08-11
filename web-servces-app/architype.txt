@@ -1,0 +1,3 @@
+GroupId=org.codehaus.mojo.archetypes 
+ArtifactId=webapp-javaee7 
+Version=1.1

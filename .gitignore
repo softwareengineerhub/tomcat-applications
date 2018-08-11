@@ -24,3 +24,8 @@
 /tomcat-web7-jaxrs-and-cdi-application/nb-configuration.xml
 /tomcat-web7-jaxrs-and-cdi-application-v27/target
 /tomcat-web7-jaxrs-and-cdi-application-v27/nb-configuration.xml
+/tomcat-security-annotations/target
+/tomcat-security-annotations/nb-configuration.xml
+/web-servces-app/target
+/rest-api/target
+/soap-operation/target

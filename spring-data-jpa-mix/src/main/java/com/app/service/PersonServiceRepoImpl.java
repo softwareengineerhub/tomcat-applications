@@ -36,7 +36,8 @@ public class PersonServiceRepoImpl implements PersonService {
 
     @Override
     public List<Person> getAll() {
-        return (List<Person>) repository.findAll();
+        return repository.findByName("test");
+        //return (List<Person>) repository.findAll();
     }
 
     @Override

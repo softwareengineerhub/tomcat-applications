@@ -1,3 +1,4 @@
+target/
 /tomcat-web7-cdi/target/
 /tomcat-web7-jaxrs/target/
 /tomcat-web7-cdi-and-jaxrs/target/
